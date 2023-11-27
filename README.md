@@ -1,3 +1,4 @@
+
 This project contains basic application code for constructing QCIF 176x144 frames from an .mp4 video format and applying a PHODs motion estimation algorithm over video frames, with different optimization cases (such as loop merging and data reuse), ignoring -O3 'gcc' compiler optimization flag (applies -O0:=none/without optimization)
 - Basic Information about the usage of the application can be found, if executing:
     *bash phods_push.sh --h*, in which a help message will be provided, as to what aspect of execution you wish to check...
