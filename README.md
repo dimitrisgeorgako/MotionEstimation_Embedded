@@ -1,3 +1,4 @@
+# Basic optimization techniques on PHODs algorithm for motion estimation, along with visualization of results...
 
 This project contains basic application code for constructing QCIF 176x144 frames from an .mp4 video format and applying a PHODs motion estimation algorithm over video frames, with different optimization cases (such as loop merging and data reuse), ignoring -O3 'gcc' compiler optimization flag (applies -O0:=none/without optimization)
 - Basic Information about the usage of the application can be found, if executing:
