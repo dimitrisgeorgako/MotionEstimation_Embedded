@@ -11,9 +11,6 @@ This project contains basic application code for constructing QCIF 176x144 frame
 - Improve the code with more optimizations...
   
    **Start with:**
-  
-  **bash phods_push.sh -v RaceCar.mp4 -f 10 : QCIF framing construction with given fps**
-  
-  **bash phods_push.sh -m phods             : Compiles and links all files and verifies installation of required PyPi packages**
-  
-  **bash phods_push.sh -r phods             : Runs main test case and saves results... Can plot motion vectors for understanding**
+     **bash phods_push.sh -v RaceCar.mp4 -f 10 : QCIF framing construction with given fps**
+     **bash phods_push.sh -m phods             : Compiles and links all files and verifies installation of required PyPi packages**
+     **bash phods_push.sh -r phods             : Runs main test case and saves results... Can plot motion vectors for understanding**
