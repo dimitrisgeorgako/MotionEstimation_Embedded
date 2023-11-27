@@ -9,3 +9,7 @@ This project contains basic application code for constructing QCIF 176x144 frame
 - images.h file will be created with the actual video formatted QCIF array... The output file from my run session is also inside the repository (it will be overwritten accordingly...)
 - Make sure you are working inside the directory that contains all files and executables - Adjust **$PYTHON_EXECUTABLE** (in requirements.sh) to the path that python.exe is located in your system
 - Improve the code with more optimizations...
+   **Start with:**
+        **bash phods_push.sh -v RaceCar.mp4 -f 10 : QCIF framing construction with given fps**
+        **bash phods_push.sh -m phods             : Compiles and links all files and verifies installation of required PyPi packages**
+        **bash phods_push.sh -r phods             : Runs main test case and saves results... Can plot motion vectors for understanding**
